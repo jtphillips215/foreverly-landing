@@ -1,0 +1,31 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container {
+  display: flex;
+  background-color: #F8C6C9;
+  height: 200px;
+}
+
+.photo-container {
+  display: flex;
+  height: 200px;
+}
+
+.quote-container {
+  display: flex;
+  background-color: #98D1B1;
+  height: 200px;
+}
+
+.action-container {
+  display: flex;
+  height: 200px;
+}
+
+footer {
+  background-color: F8C6C9;
+  justify-content: center;
+}

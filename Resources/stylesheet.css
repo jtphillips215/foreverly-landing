@@ -5,8 +5,31 @@
 
 .nav-container {
   display: flex;
+  flex-direction: column;
   background-color: #F8C6C9;
   height: 200px;
+}
+
+.header-row {
+  display: flex;
+}
+
+.header-logo img {
+  flex: auto;
+  width: 100px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.header-link {
+  color: black;
+  font-size: 18px;
 }
 
 .photo-container {

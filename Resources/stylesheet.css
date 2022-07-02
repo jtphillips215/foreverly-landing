@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   background-color: #F8C6C9;
-  height: 200px;
 }
 
 .header-row {
@@ -30,6 +29,21 @@ nav {
 .header-link {
   color: black;
   font-size: 18px;
+}
+
+.content-row {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.content {
+  flex: 1;
+}
+
+.content-logo {
+  height: auto;
+  width: 200px;
 }
 
 .photo-container {

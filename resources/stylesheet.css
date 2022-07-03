@@ -15,7 +15,7 @@ body {
 }
 
 .header-row {
-  padding: 10px 200px 10px;
+  padding: 10px 150px 10px;
   display: flex;
   flex: 1;
   background-color: #FFFFFF;
@@ -24,7 +24,7 @@ body {
 
 .header-logo img {
   flex: 1 1 auto;
-  width: 100px;
+  width: 125px;
   height: auto;
 }
 
@@ -45,7 +45,7 @@ nav {
 }
 
 .content-row {
-  padding: 10px 200px 10px;
+  padding: 10px 150px 10px;
   display: flex;
   flex: 1 1 auto;
 }
@@ -59,7 +59,7 @@ nav {
 
 .content-logo {
   height: auto;
-  width: 300px;
+  width: 400px;
   border-radius: 5%;
 }
 
@@ -71,8 +71,8 @@ h2 {
   display: flex;
   flex: auto;
   justify-content: center;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 100px;
+  padding-right: 125px;
 }
 
 .photo-item {
@@ -98,6 +98,7 @@ h2 {
 
 .quote-container {
   display: flex;
+  flex-direction: column;
   background-color: #98D1B1;
   height: 200px;
 }

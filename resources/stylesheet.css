@@ -48,16 +48,15 @@ nav {
 .content-row {
   display: flex;
   justify-content: center;
-  flex: 1 1 auto;
+  flex: 1;
   align-items: center;
   padding: 10px 150px 10px;
 }
 
 .content {
-  flex: auto;
+  flex: 1;
   padding: 0px;
   margin: 0px;
-  align-items: center;
 }
 
 .content-logo {

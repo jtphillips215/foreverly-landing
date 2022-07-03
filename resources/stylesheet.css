@@ -71,6 +71,8 @@ h2 {
   display: flex;
   flex: auto;
   justify-content: center;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .photo-item {
@@ -85,9 +87,13 @@ h2 {
 }
 
 .photo-image img {
-  width: 200px;
-  height: 132px;
+  width: 250px;
+  height: 165px;
   border-radius: 5%;
+}
+
+.photo-image:hover {
+  opacity: 50%;
 }
 
 .quote-container {

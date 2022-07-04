@@ -24,14 +24,14 @@ body {
 }
 
 .header-logo img {
-  flex: 1 1 auto;
+  flex: auto;
   width: 125px;
   height: auto;
 }
 
 nav {
   display: flex;
-  flex: 1 1 auto;
+  flex: auto;
   justify-content: flex-end;
   align-items: center;
   gap: 50px;

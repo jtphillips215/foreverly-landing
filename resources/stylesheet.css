@@ -13,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #F8C6C9;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
 .header-row {
@@ -21,6 +22,8 @@ body {
   flex: 1;
   background-color: #FFFFFF;
   justify-content: space-between;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+
 }
 
 .header-logo img {
@@ -65,8 +68,13 @@ nav {
   border-radius: 5%;
 }
 
-h2 {
-  padding-top: 20px;
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.hero-text {
   text-align: center;
 }
 
@@ -106,11 +114,17 @@ h2 {
   flex-direction: column;
   background-color: #98D1B1;
   align-items: center;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.review-header {
+  text-align: center;
 }
 
 .action-container {
   display: flex;
   height: 200px;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
 footer {

@@ -76,6 +76,10 @@ nav {
   border-radius: 5%;
 }
 
+.hero-button {
+  font-size: 20px;
+}
+
 .hero-container {
   display: flex;
   flex-direction: column;
